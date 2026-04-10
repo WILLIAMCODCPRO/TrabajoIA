@@ -1,0 +1,75 @@
+{
+    "ultimo_id": 111,
+    "campers": [
+        {
+            "id": 101,
+            "nombre": "Juan Sebasti\u00c3\u00a1n P\u00c3\u00a9rez",
+            "documento": "1005123456",
+            "email": "juan.perez@email.com",
+            "estado": "Activo"
+        },
+        {
+            "id": 102,
+            "nombre": "Mar\u00c3\u00ada Fernanda Garc\u00c3\u00ada",
+            "documento": "1005654321",
+            "email": "mafe.garcia@email.com",
+            "estado": "Activo"
+        },
+        {
+            "id": 103,
+            "nombre": "Carlos Andr\u00c3\u00a9s Ruiz",
+            "documento": "1005789012",
+            "email": "carlos.ruiz@email.com",
+            "estado": "Inactivo"
+        },
+        {
+            "id": 104,
+            "nombre": "Ana Milena Mart\u00c3\u00adnez",
+            "documento": "1005345678",
+            "email": "ana.martinez@email.com",
+            "estado": "Activo"
+        },
+        {
+            "id": 105,
+            "nombre": "Luis Alberto Rodr\u00c3\u00adguez",
+            "documento": "1005901234",
+            "email": "luis.rod@email.com",
+            "estado": "Activo"
+        },
+        {
+            "id": 106,
+            "nombre": "Elena Sof\u00c3\u00ada G\u00c3\u00b3mez",
+            "documento": "1005111222",
+            "email": "elena.gomez@email.com",
+            "estado": "Inactivo"
+        },
+        {
+            "id": 107,
+            "nombre": "Diego Alejandro L\u00c3\u00b3pez",
+            "documento": "1005333444",
+            "email": "diego.lopez@email.com",
+            "estado": "Activo"
+        },
+        {
+            "id": 108,
+            "nombre": "Sonia Patricia Castro",
+            "documento": "1005555666",
+            "email": "sonia.castro@email.com",
+            "estado": "Activo"
+        },
+        {
+            "id": 109,
+            "nombre": "fff",
+            "documento": "1005777888",
+            "email": "pedro.sanchez@email.com",
+            "estado": "Inactivo"
+        },
+        {
+            "id": 111,
+            "nombre": "f",
+            "documento": "1",
+            "email": "william@gmail.com",
+            "estado": "Activo"
+        }
+    ]
+}

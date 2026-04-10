@@ -1,0 +1,19 @@
+{
+    "ultimo_id": 3,
+    "computadores": [
+        {
+            "id": 2,
+            "inventario": 2,
+            "marca": "HP",
+            "modelo": "ProBook",
+            "estado": "Ocupado"
+        },
+        {
+            "id": 3,
+            "inventario": 3,
+            "marca": "Lenovo",
+            "modelo": "ThinkPad",
+            "estado": "Da\u00c3\u00b1ado"
+        }
+    ]
+}
