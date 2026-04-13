@@ -1,3 +1,135 @@
+# 🧾 1. Visión del Producto
+
+El sistema tendrá como objetivo gestionar el control interno de los computadores asignados a los campers en Campusland (sede Cajasan), permitiendo registrar, consultar, actualizar y eliminar información de:
+
+- Campers (estudiantes)
+- Computadores
+
+El enfoque es simple, funcional y escalable, evitando complejidad innecesaria.
+
+---
+
+# 🎯 2. Alcance del Sistema
+
+## ✔️ Incluye:
+- CRUD de campers
+- CRUD de computadores
+
+## ❌ No incluye (por ahora):
+- Reportes avanzados
+- Integraciones externas
+- Control de horarios o uso en tiempo real
+- Autenticación compleja (opcional a futuro)
+
+---
+
+# 🧩 3. Módulos del Sistema
+
+## 🔹 3.1 Módulo de Campers
+
+Permite la gestión completa de los estudiantes.
+
+### Campos sugeridos:
+- ID (único)
+- Nombre completo
+- Documento
+- Email
+- Estado (Activo / Inactivo)
+
+### Funcionalidades:
+- Crear camper
+- Consultar lista de campers
+- Editar información
+- Eliminar camper
+
+---
+
+## 🔹 3.2 Módulo de Computadores
+
+Permite administrar los equipos disponibles.
+
+### Campos sugeridos:
+- ID (único)
+- Número de inventario
+- Marca
+- Modelo
+- Estado (Disponible / Ocupado / Dañado)
+
+### Funcionalidades:
+- Registrar computador
+- Listar computadores
+- Editar información
+- Eliminar computador
+
+---
+
+# 🔗 4. Relación (Regla de Negocio Básica)
+
+Aunque el sistema es simple, hay una regla clave:
+
+👉 Un camper puede tener un computador asignado (opcional si decides agregarlo después).
+
+### Regla recomendada:
+- Un computador solo puede estar asignado a un camper a la vez.
+
+> (Esto puede dejarse como mejora futura si quieres mantener el sistema ultra simple.)
+
+---
+
+# 📌 5. Historias de Usuario
+
+## 👤 Campers
+- Como administrador, quiero registrar un camper para llevar control de los estudiantes.
+- Como administrador, quiero ver la lista de campers para consultar su información.
+- Como administrador, quiero editar un camper para mantener la información actualizada.
+- Como administrador, quiero eliminar un camper si ya no pertenece al programa.
+
+## 💻 Computadores
+- Como administrador, quiero registrar un computador para controlar los equipos disponibles.
+- Como administrador, quiero ver la lista de computadores para conocer su estado.
+- Como administrador, quiero editar un computador para actualizar su información.
+- Como administrador, quiero eliminar un computador si ya no está en uso.
+
+---
+
+# ⚙️ 6. Requisitos Funcionales
+
+1. El sistema debe permitir crear, leer, actualizar y eliminar campers.
+2. El sistema debe permitir crear, leer, actualizar y eliminar computadores.
+3. El sistema debe validar que los campos obligatorios no estén vacíos.
+4. El sistema debe mostrar listados claros y organizados.
+
+---
+
+# 🚧 7. Requisitos No Funcionales (Básicos)
+
+- Interfaz sencilla y fácil de usar
+- Tiempo de respuesta rápido
+- Datos persistentes (base de datos)
+- Sistema usable en entorno web (recomendado)
+
+---
+
+# 🧠 8. Recomendaciones como Product Owner
+
+Aunque el cliente pidió algo simple, te dejo estas mejoras para escalar después:
+
+- Asignación de computadores a campers
+- Historial de asignaciones
+- Filtros de búsqueda
+- Roles (admin / usuario)
+- Reportes básicos
+
+---
+
+## 🚀 Próximos pasos
+
+Si quieres, en el siguiente paso puedo ayudarte a convertir esto en:
+
+- 📊 Modelo de base de datos (ERD)
+- 🧱 Estructura de backend (Spring Boot, Node, etc.)
+- 🎨 Diseño de interfaz (wireframes)
+
 # Plan de Pruebas Unitarias
 
 ## Resumen
